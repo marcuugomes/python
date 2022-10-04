@@ -3,6 +3,7 @@
 #Exercicio 1
 
 """
+teste de git
 #Input do número máximo e do número mínimo
 minimo = int(input("Introduza o nº mínimo: "))
 maximo = int(input("Introduza o nº máximo: "))
