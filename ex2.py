@@ -107,7 +107,56 @@ print(quantia)
 
 #Exercicio 3
 
-def comparar ():
-    i=0
+#Funções
+import random
+import time
+def comparar (vetor1, vetor2):
+    
+    aux=0
+
+   
+# Main 
+    
+v1=[]
+v2=[]
+
+while len(v1)<10:
+    v1.append(random.randint(0,30))
+    v2.append(random.randint(0,30))
+  
+print("As duas listas criadas aleatóriamente")  
+print("lista 1 == {}".format(v1))
+print("lista 2 == {}".format(v2))
+print("\n")
+aux="- "
+i=0
+
+while i<5:
+    print(aux*i)
+    time.sleep(1)
+    i+=1
+    
+
+# comparar se nº iguais
+    
+iguais=[]
+
+for index, valor in enumerate(v1):
+    
+    for valor2 in v2:
+        if valor == valor2:
+            iguais.append(valor)
+            
+final= set(valor for valor in iguais)
+
+print('Número(s) repetido(s): {}'.format(list(final)))
+           
+
+
+
+
+    
+    
+
  
 
