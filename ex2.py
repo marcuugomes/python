@@ -127,7 +127,6 @@ while len(v1)<10:
 print("As duas listas criadas aleatóriamente")  
 print("lista 1 == {}".format(v1))
 print("lista 2 == {}".format(v2))
-print("\n")
 aux="- "
 i=0
 
@@ -149,7 +148,7 @@ for index, valor in enumerate(v1):
             
 final= set(valor for valor in iguais)
 
-print('Número(s) repetido(s): {}'.format(list(final)))
+print('\nNúmero(s) repetido(s): {}'.format(list(final)))
            
 
 
